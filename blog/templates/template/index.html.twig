@@ -1,0 +1,246 @@
+{% extends 'base.html.twig'%}
+
+{% block body %}
+
+    <!docytpe html>
+<html>
+<head>
+<meta charset="utf-8"> 
+    
+<title>Blog</title>  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    
+<style>
+                    
+.view {
+    background: url("https://blog.cloudflare.com/content/images/2021/02/1_1OtV9jVCvZ1TOaV5wpXffw.jpeg") no-repeat center center;
+}
+    
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #000000;
+    }
+}
+</style>
+</head>
+<body>
+  
+    <header>
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar pl-5" style="background-color:rgb(20, 17, 17)">
+            <a class="navbar-brand" href="#"><i class="fas fa-gem me-3"></i><strong> Software's</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mr-5">
+                    <li class="nav-item active mr-3">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+        <div class="view intro hm-purple-light" style="height: 600px; width: 100%;"></div>
+    
+    </header>
+
+    
+    <div class="mt-1 mb-1">
+        <div class="card text-white" style="background: -webkit-linear-gradient(left, #14121b, #10082b)">
+        <img class="card-img" height="350px">
+        <div class="card-img-overlay">
+          <h1 class="card-title text-center" style="margin-left: 30px; letter-spacing: 10px; padding-top: 40px ">FREE SIGN UP</h1>
+          <hr style="background-color: darkgray">
+         <h1 class="card-title text-center" style="margin-left: 30px; letter-spacing: 10px; ">OR SIGN IN</h1>
+         <hr>
+         
+         <div style=" text-align: center">
+         <button class="btn btn-outline-info my-2 text-light mb-1" type="submit" style="font-family: Lucida Konsolu; ">SIGN UP</button> 
+         <button class="btn btn-outline-info my-2 text-light mb-1" type="submit" style="font-family: Lucida Konsolu; ">SIGN IN</button> 
+         </div>
+        </div>
+      </div>
+      </div>
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-md-3" style="border-radius: 5px;background: -webkit-linear-gradient(left, #181547, #051c22)";>
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="text-center text-light mr-2"><i class="fal fa-code-merge"></i> Categorys</h3>
+                            <br>
+                            <h5 class="panel-title" >
+                                <a class="text-light" href="#"><span class="glyphicon glyphicon-folder-close">
+                                </span><i class="fas fa-code"></i> CSS</a>
+                            </h5>
+                            <hr>
+                            <h5 class="panel-title" >
+                                <a class="text-light" href="#"><span class="glyphicon glyphicon-folder-close">
+                                </span><i class="fas fa-code"></i> PHP</a>
+                            </h5>
+                            <hr>
+                            <h5 class="panel-title" >
+                                <a class="text-light" href="#"><span class="glyphicon glyphicon-folder-close">
+                                </span><i class="fas fa-code"></i> ASP.NET</a>
+                            </h5>
+                            <hr>
+                            <h5 class="panel-title" >
+                                <a class="text-light" href="#"><span class="glyphicon glyphicon-folder-close">
+                                </span><i class="fas fa-code"></i> HTML</a>
+                            </h5>
+                            <hr>
+                        </div>
+                        
+                    </div>
+                   
+                    
+                   
+                </div>
+            </div>
+            <div class="col-sm-9 col-md-9" style="text-align: center;">
+                <div class="card border-info mb-3" >
+                    <div class="card-header bg-transparent border-info text-info" style="font-weight: 700;">What is PHP?</div>
+                    <div class="card-body text-dark text-left">
+                      <h5 class="card-title">Success card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Comment</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      <br>
+                      <button type="submit" class="btn btn-primary mb-2">Send</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+<br><br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-md-3">
+        </div>
+        <div class="col-sm-9 col-md-9" style="text-align: center;">
+            <div class="card border-info mb-3" >
+                <div class="card-header bg-transparent border-info text-info" style="font-weight: 700;">What is PHP?</div>
+                <div class="card-body text-dark text-left">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Comment</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <br>
+                  <button type="submit" class="btn btn-primary mb-2">Send</button>
+                </div>
+              </form>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start text-muted" style="background-color: black;">
+
+    <section class="">
+      <div class="container text-center text-md-start pt-5">
+        <div class="row mt-3">
+          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i> Software's
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+         
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i> Turkey, Istanbul</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              anilacar_1999@hotmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> (535) 258 82 55</p>
+            <p><i class="fas fa-print me-3"></i> (216) 375 94 06</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="#">Software's</a>
+    </div>
+  </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
+
+{% endblock %}
